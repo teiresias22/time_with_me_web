@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "features": "功能",
+    "download": "下载",
+    "privacy": "隐私政策",
+    "terms": "使用条款"
+  },
+  "hero": {
+    "title": "Time with Me",
+    "subtitle": "与你珍贵的人分享时光。",
+    "price": "免费"
+  },
+  "features": {
+    "sectionTitle": "功能",
+    "sectionSubtitle": "与他人分享时光所需的一切",
+    "calendar": {
+      "title": "与他人共享日历",
+      "desc": "与身边的人一起创建充满精美图片的日历！"
+    },
+    "crossplatform": {
+      "title": "支持Android和iPhone",
+      "desc": "同时支持Android和iPhone设备。"
+    },
+    "communicate": {
+      "title": "一起交流",
+      "desc": "在日程上留下爱心和评论，彼此交流吧！"
+    },
+    "location": {
+      "title": "记录位置",
+      "desc": "用图片记录和分享位置！"
+    },
+    "dday": {
+      "title": "多种D-day表示法",
+      "desc": "通过多种D-Day记录方式，您可以计算适合日程的天数！"
+    },
+    "category": {
+      "title": "多种分类方式",
+      "desc": "您可以创建各种类别来记录日程！"
+    },
+    "sorting": {
+      "title": "不同的排序方式",
+      "desc": "通过多种排序方式找到您想要的项目！"
+    },
+    "notification": {
+      "title": "新帖通知",
+      "desc": "当日历中创建新帖时，我们会向您发送通知！"
+    }
+  },
+  "download": {
+    "title": "立即下载",
+    "subtitle": "在iOS和Android上可用"
+  },
+  "footer": {
+    "madeBy": "制作",
+    "in": "韩国",
+    "rights": "保留所有权利。"
+  }
+}

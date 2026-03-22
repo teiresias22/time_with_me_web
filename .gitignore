@@ -1,4 +1,5 @@
-.bundle
-.sass-cache
-_site
-Gemfile.lock
+.DS_Store
+.idea/
+.firebase/
+firebase-debug.log
+node_modules/

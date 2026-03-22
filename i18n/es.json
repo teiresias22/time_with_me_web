@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "features": "Funciones",
+    "download": "Descargar",
+    "privacy": "Política de privacidad",
+    "terms": "Términos y condiciones"
+  },
+  "hero": {
+    "title": "Time with Me",
+    "subtitle": "Comparte tiempo con las personas que más quieres.",
+    "price": "Gratis"
+  },
+  "features": {
+    "sectionTitle": "Funciones",
+    "sectionSubtitle": "Todo lo que necesitas para compartir tiempo con otros",
+    "calendar": {
+      "title": "Comparte tu calendario con otros",
+      "desc": "¡Crea un calendario lleno de hermosas imágenes con las personas que te rodean!"
+    },
+    "crossplatform": {
+      "title": "En Android y iPhone",
+      "desc": "Disponible tanto en dispositivos Android como iPhone."
+    },
+    "communicate": {
+      "title": "Comunícate juntos",
+      "desc": "¡Comunícate dejando corazones y comentarios en el calendario!"
+    },
+    "location": {
+      "title": "Registra la ubicación",
+      "desc": "¡Registra y comparte ubicaciones con imágenes!"
+    },
+    "dday": {
+      "title": "Varias notaciones de D-day",
+      "desc": "¡Con varios métodos de registro D-Day, puedes contar los días que se ajustan a tu horario!"
+    },
+    "category": {
+      "title": "Diversas categorizaciones",
+      "desc": "¡Puedes crear varias categorías para registrar tus horarios!"
+    },
+    "sorting": {
+      "title": "Diferentes métodos de ordenación",
+      "desc": "¡Puedes encontrar el elemento que deseas a través de varios métodos de ordenación!"
+    },
+    "notification": {
+      "title": "Notificación de nuevas publicaciones",
+      "desc": "¡Te enviaremos una notificación cuando se cree una nueva publicación en tu calendario!"
+    }
+  },
+  "download": {
+    "title": "Descargar ahora",
+    "subtitle": "Disponible en iOS y Android"
+  },
+  "footer": {
+    "madeBy": "Hecho por",
+    "in": "en Corea del Sur",
+    "rights": "Todos los derechos reservados."
+  }
+}
