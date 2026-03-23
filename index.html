@@ -16,29 +16,25 @@
     <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-analytics-compat.js"></script>
     <script>
         firebase.initializeApp({
-            apiKey: "AIzaSyA5h43m3lDgE2tFM2wbkZILKAQrg87Vz0s",
-            authDomain: "time-with-me-web.firebaseapp.com",
-            projectId: "time-with-me-web",
-            storageBucket: "time-with-me-web.firebasestorage.app",
-            messagingSenderId: "490586538102",
-            appId: "1:490586538102:web:838deecf54678f0639df57",
-            measurementId: "G-Y6N1R2YM90"
+            apiKey: "AIzaSyAjPAJ_Q0mVikWCEnktYTdQV5Rmf7RLHpY",
+            authDomain: "time-with-me-745b5.firebaseapp.com",
+            projectId: "time-with-me-745b5",
+            storageBucket: "time-with-me-745b5.firebasestorage.app",
+            messagingSenderId: "313950885061",
+            appId: "1:313950885061:web:4df95d01000f0ce85eccac",
+            measurementId: "G-QKXFVH3C7N"
         });
         firebase.analytics();
     </script>
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="nav">
+    <header class="nav">
         <div class="nav-container">
             <a href="#" class="nav-brand">
                 <img src="assets/appicon.png" alt="Time with Me">
                 <span>Time with Me</span>
             </a>
-            <ul class="nav-links">
-                <li><a href="#features" data-i18n="nav.features">Features</a></li>
-                <li><a href="#download" data-i18n="nav.download">Download</a></li>
-            </ul>
             <div class="nav-controls">
                 <select id="lang-select" class="lang-select" aria-label="Language">
                     <option value="en">EN</option>
@@ -50,12 +46,9 @@
                 <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
                     <i class="fas fa-moon"></i>
                 </button>
-                <button class="nav-menu-btn" id="nav-menu-btn" aria-label="Menu">
-                    <i class="fas fa-bars"></i>
-                </button>
             </div>
         </div>
-    </nav>
+    </header>
 
     <!-- Hero Section -->
     <section class="hero" id="hero">
@@ -189,6 +182,10 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-container">
+            <nav class="footer-nav">
+                <a href="privacy.html" data-i18n="nav.privacy">Privacy Policy</a>
+                <a href="terms.html" data-i18n="nav.terms">Terms & Conditions</a>
+            </nav>
             <div class="footer-social">
                 <a href="https://github.com/teiresias22" target="_blank" rel="noopener" aria-label="GitHub">
                     <i class="fab fa-github"></i>
@@ -200,12 +197,7 @@
                     <i class="fas fa-envelope"></i>
                 </a>
             </div>
-            <div class="footer-links">
-                <a href="privacy.html"><i class="fas fa-shield-halved"></i> <span data-i18n="nav.privacy">Privacy Policy</span></a>
-                <a href="terms.html"><i class="fas fa-file-contract"></i> <span data-i18n="nav.terms">Terms & Conditions</span></a>
-            </div>
             <div class="footer-info">
-                <p><span data-i18n="footer.madeBy">Made by</span> <a href="https://open.kakao.com/o/sTkXJp4g" target="_blank" rel="noopener">JoonHwan</a> <span data-i18n="footer.in">in South Korea</span></p>
                 <p>&copy; 2024 Time with Me. <span data-i18n="footer.rights">All rights reserved.</span></p>
             </div>
         </div>
