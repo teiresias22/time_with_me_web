@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "83R5US8PK8.com.joonhwan.timewithme.time_with_me",
+        "paths": ["/invite*"]
+      }
+    ]
+  }
+}

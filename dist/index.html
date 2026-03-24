@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/assets/appicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Time with Me - Share time with your precious people." />
+    <meta name="apple-itunes-app" content="app-id=6705135769" />
+    <meta property="og:title" content="Time with Me" />
+    <meta property="og:description" content="Share time with your precious people." />
+    <meta property="og:image" content="/assets/appicon.png" />
+    <meta property="og:type" content="website" />
+    <title>Time with Me</title>
+    <script>
+      (function() {
+        var saved = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (saved === 'dark' || (!saved && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-CtgdM6He.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CJQwqX6F.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

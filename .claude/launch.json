@@ -3,9 +3,9 @@
   "configurations": [
     {
       "name": "timewithme",
-      "runtimeExecutable": "npx",
-      "runtimeArgs": ["http-server", ".", "-p", "8080", "-c-1"],
-      "port": 8080
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "--port", "5180"],
+      "port": 5180
     }
   ]
 }
