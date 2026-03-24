@@ -1,0 +1,66 @@
+{
+  "app": {
+    "name": "Time with Me",
+    "tagline": "Share time with your precious people.",
+    "description": "A shared calendar app that lets you create beautiful memories with the people who matter most to you."
+  },
+  "nav": {
+    "home": "Home",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "hero": {
+    "download": "Download Now",
+    "free": "Free"
+  },
+  "features": {
+    "title": "Features",
+    "calendar": {
+      "title": "Share your calendar",
+      "desc": "Create a calendar full of gorgeous images with people around you!"
+    },
+    "crossplatform": {
+      "title": "iOS & Android",
+      "desc": "Available for both Android and iPhone devices."
+    },
+    "communicate": {
+      "title": "Communicate together",
+      "desc": "Leave hearts and comments on schedules to connect with each other!"
+    },
+    "location": {
+      "title": "Record the location",
+      "desc": "Record and share locations with images!"
+    },
+    "dday": {
+      "title": "D-day tracking",
+      "desc": "Count down the days that matter with various D-Day recording methods!"
+    },
+    "category": {
+      "title": "Custom categories",
+      "desc": "Create various categories to organize and record your schedules!"
+    },
+    "sorting": {
+      "title": "Flexible sorting",
+      "desc": "Find what you need through various sorting methods!"
+    },
+    "notification": {
+      "title": "New post alerts",
+      "desc": "Get notified instantly when a new post is created on your calendar!"
+    }
+  },
+  "footer": {
+    "madeBy": "Made by {{name}} in {{city}}",
+    "contact": "Contact",
+    "copyright": "© {{year}} Time with Me. All rights reserved."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: October 01, 2024",
+    "content": "This Policy (the \"Policy\") explains the way of treatment of the information which is provided or collected in the web sites on which this Policy is posted.\n\nThe Company is the controller of the information provided or collected in the websites on which this Policy is posted and in the course of using the applications of the Company.\n\nThis Policy will be effective on the 1st day of October, 2024.\n\n## 1. Information to be collected and method of collection\n\nPersonal information items to be collected by the Company are as follows:\n\n- Name, email address, ID, telephone number for membership service\n- Payment information for online payment service\n- Equipment identifier, operation system, hardware version\n- IP address, log data, use time, search word input by users\n- Information of device location including specific geographical location\n\n## 2. Use of collected information\n\nThe Company uses the collected information of users for the following purposes:\n\n1. Member management and identification\n2. To detect and deter unauthorized or fraudulent use of the Service\n3. Performance of contract and service fee payment\n4. Improvement of existing services and development of new services\n5. Making notice of function changes or policy changes\n6. To provide information on promotional events\n7. To comply with applicable laws or legal obligation\n\n## 3. Disclosure of collected information\n\nExcept for the following cases, the Company will not disclose personal information with a 3rd party:\n\n- When the Company's affiliates, partners and service providers carry out services on behalf of the Company\n- When the user consents to disclose in advance\n- When disclosure is required by the laws and regulations\n\n## 4. Cookies and Similar Technologies\n\nThe Company may collect collective and impersonal information through cookies or web beacons. Users have an option for cookie installation.\n\n## 5. User's right\n\nThe users or their legal representatives may exercise the following rights:\n\n- Exercise right to access to personal information\n- Make corrections or deletion\n- Make temporary suspension of treatment of personal information\n- Request the withdrawal of their consent provided before\n\n## 6. Security\n\nThe Company constructs the following security measures to protect personal information:\n\n- Encryption of personal information\n- Countermeasures against hacking\n- Establish and execute internal management plan\n- Install and operate access control system\n\n## 7. Contact information\n\n| Item | Details |\n|------|------|\n| Company | joonhwan |\n| Email | teiresias1987@gmail.com |"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: October 01, 2024",
+    "content": "## Article 1 (Purpose)\n\nThe purpose of these Terms and Conditions is to define the rights, obligations, and responsibilities of the cyber mall and the users in relation to the use of services provided by Time with Me.\n\n## Article 2 (Definitions)\n\n1. 'Service' refers to all services provided through the Time with Me mobile application.\n2. 'User' refers to anyone who agrees to these terms and uses the Service.\n3. 'Member' refers to a person who has registered as a member and can continuously use the services.\n\n## Article 3 (Effect and Amendment)\n\n1. These terms apply to all users of the Service.\n2. The Service may amend these terms as necessary and will notify users within the app.\n3. The amended Terms and Conditions apply only to contracts concluded after the application date.\n\n## Article 4 (Service Provision)\n\n1. The Service provides the following features:\n   - Shared calendar with images\n   - Hearts and comments on schedules\n   - Location recording and sharing\n   - D-day tracking\n   - Category management\n   - Push notifications\n\n## Article 5 (User Obligations)\n\n1. Users must comply with applicable laws and these terms.\n2. Users must not infringe on others' personal information.\n3. Users shall not register false information or steal others' information.\n\n## Article 6 (Disclaimer)\n\n1. The Service is not liable for inability to provide service due to force majeure.\n2. The Service is not liable for service disruptions caused by user negligence.\n\n## Article 7 (Governing Law)\n\nThese terms are governed by the laws of the Republic of Korea."
+  }
+}

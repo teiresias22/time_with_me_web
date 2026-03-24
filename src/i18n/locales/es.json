@@ -1,0 +1,66 @@
+{
+  "app": {
+    "name": "Time with Me",
+    "tagline": "Comparte tiempo con las personas que más quieres.",
+    "description": "Una app de calendario compartido para crear hermosos recuerdos con las personas más importantes de tu vida."
+  },
+  "nav": {
+    "home": "Inicio",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  },
+  "hero": {
+    "download": "Descargar Ahora",
+    "free": "Gratis"
+  },
+  "features": {
+    "title": "Características",
+    "calendar": {
+      "title": "Comparte tu calendario",
+      "desc": "¡Crea un calendario lleno de hermosas imágenes con las personas que te rodean!"
+    },
+    "crossplatform": {
+      "title": "iOS y Android",
+      "desc": "Disponible tanto en dispositivos Android como iPhone."
+    },
+    "communicate": {
+      "title": "Comunícate juntos",
+      "desc": "¡Deja corazones y comentarios en los horarios para conectar con los demás!"
+    },
+    "location": {
+      "title": "Registra la ubicación",
+      "desc": "¡Registra y comparte ubicaciones con imágenes!"
+    },
+    "dday": {
+      "title": "Seguimiento D-day",
+      "desc": "¡Cuenta los días importantes con varios métodos de registro D-Day!"
+    },
+    "category": {
+      "title": "Categorías personalizadas",
+      "desc": "¡Crea varias categorías para organizar y registrar tus horarios!"
+    },
+    "sorting": {
+      "title": "Ordenación flexible",
+      "desc": "¡Encuentra lo que necesitas a través de varios métodos de ordenación!"
+    },
+    "notification": {
+      "title": "Alertas de nuevas publicaciones",
+      "desc": "¡Recibe notificaciones instantáneas cuando se cree una nueva publicación en tu calendario!"
+    }
+  },
+  "footer": {
+    "madeBy": "Hecho por {{name}} en {{city}}",
+    "contact": "Contacto",
+    "copyright": "© {{year}} Time with Me. Todos los derechos reservados."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 01 de octubre de 2024",
+    "content": "Esta Política explica la forma en que se trata la información proporcionada o recopilada.\n\nEsta Política entrará en vigor el 1 de octubre de 2024.\n\n## 1. Información recopilada y método de recopilación\n\nLos elementos de información personal recopilados son los siguientes:\n\n- Nombre, dirección de correo electrónico, ID, número de teléfono para el servicio de membresía\n- Información de pago para el servicio de pago en línea\n- Identificador de equipo, sistema operativo, versión de hardware\n- Dirección IP, datos de registro, tiempo de uso, palabras de búsqueda\n- Información de ubicación del dispositivo\n\n## 2. Uso de la información recopilada\n\n1. Gestión de miembros e identificación\n2. Detectar y disuadir el uso no autorizado del Servicio\n3. Cumplimiento del contrato y pago del servicio\n4. Mejora de los servicios existentes y desarrollo de nuevos servicios\n5. Notificación de cambios de función o política\n\n## 3. Divulgación de información recopilada\n\nExcepto en los siguientes casos, la Compañía no divulgará información personal a terceros:\n\n- Cuando los afiliados realizan servicios en nombre de la Compañía\n- Cuando el usuario consiente divulgar de antemano\n- Cuando la divulgación es requerida por las leyes y regulaciones\n\n## 4. Seguridad\n\n- Cifrado de información personal\n- Contramedidas contra hacking\n- Establecer y ejecutar plan de gestión interna\n- Instalar y operar sistema de control de acceso\n\n## 5. Información de contacto\n\n| Elemento | Detalles |\n|------|------|\n| Empresa | joonhwan |\n| Email | teiresias1987@gmail.com |"
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: 01 de octubre de 2024",
+    "content": "## Artículo 1 (Propósito)\n\nEl propósito de estos Términos es definir los derechos, obligaciones y responsabilidades en relación con el uso de los servicios proporcionados por Time with Me.\n\n## Artículo 2 (Definiciones)\n\n1. 'Servicio' se refiere a todos los servicios proporcionados a través de la aplicación móvil Time with Me.\n2. 'Usuario' se refiere a cualquier persona que acepte estos términos y utilice el Servicio.\n\n## Artículo 3 (Efecto y Modificación)\n\n1. Estos términos se aplican a todos los usuarios del Servicio.\n2. El Servicio puede modificar estos términos según sea necesario y notificará a los usuarios dentro de la app.\n\n## Artículo 4 (Provisión del Servicio)\n\n1. El Servicio proporciona las siguientes funciones:\n   - Calendario compartido con imágenes\n   - Corazones y comentarios en horarios\n   - Grabación y compartición de ubicación\n   - Seguimiento D-day\n   - Gestión de categorías\n   - Notificaciones push\n\n## Artículo 5 (Obligaciones del Usuario)\n\n1. Los usuarios deben cumplir con las leyes aplicables y estos términos.\n2. Los usuarios no deben infringir la información personal de otros.\n\n## Artículo 6 (Exención de Responsabilidad)\n\n1. El Servicio no es responsable por la imposibilidad de proporcionar servicio debido a fuerza mayor.\n2. El Servicio no es responsable por interrupciones causadas por negligencia del usuario.\n\n## Artículo 7 (Ley Aplicable)\n\nEstos términos se rigen por las leyes de la República de Corea."
+  }
+}

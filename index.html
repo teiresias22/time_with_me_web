@@ -1,210 +1,28 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Time with Me - Share time with your precious people. Available on iOS and Android.">
-    <meta name="apple-itunes-app" content="app-id=6705135769">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/assets/appicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Time with Me - Share time with your precious people." />
+    <meta name="apple-itunes-app" content="app-id=6705135769" />
+    <meta property="og:title" content="Time with Me" />
+    <meta property="og:description" content="Share time with your precious people." />
+    <meta property="og:image" content="/assets/appicon.png" />
+    <meta property="og:type" content="website" />
     <title>Time with Me</title>
-    <link rel="icon" type="image/png" href="assets/appicon.png">
-    <link rel="apple-touch-icon" href="assets/appicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- Firebase Analytics -->
-    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-analytics-compat.js"></script>
     <script>
-        firebase.initializeApp({
-            apiKey: "AIzaSyAjPAJ_Q0mVikWCEnktYTdQV5Rmf7RLHpY",
-            authDomain: "time-with-me-745b5.firebaseapp.com",
-            projectId: "time-with-me-745b5",
-            storageBucket: "time-with-me-745b5.firebasestorage.app",
-            messagingSenderId: "313950885061",
-            appId: "1:313950885061:web:4df95d01000f0ce85eccac",
-            measurementId: "G-QKXFVH3C7N"
-        });
-        firebase.analytics();
+      (function() {
+        var saved = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (saved === 'dark' || (!saved && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
     </script>
-</head>
-<body>
-    <!-- Navigation -->
-    <header class="nav">
-        <div class="nav-container">
-            <a href="#" class="nav-brand">
-                <img src="assets/appicon.png" alt="Time with Me">
-                <span>Time with Me</span>
-            </a>
-            <div class="nav-controls">
-                <select id="lang-select" class="lang-select" aria-label="Language">
-                    <option value="en">EN</option>
-                    <option value="ko">KO</option>
-                    <option value="es">ES</option>
-                    <option value="ja">JA</option>
-                    <option value="zh">ZH</option>
-                </select>
-                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
-                    <i class="fas fa-moon"></i>
-                </button>
-            </div>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero" id="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-app-info">
-                    <img class="hero-app-icon" src="assets/appicon.png" alt="Time with Me App Icon">
-                    <div class="hero-app-meta">
-                        <h1 data-i18n="hero.title">Time with Me</h1>
-                        <p class="price" data-i18n="hero.price">Free</p>
-                    </div>
-                </div>
-                <p class="hero-description" data-i18n="hero.subtitle">Share time with your precious people.</p>
-                <div class="hero-buttons">
-                    <a href="https://play.google.com/store/apps/details?id=com.joonhwan.timewithme.time_with_me&hl=en" target="_blank" rel="noopener">
-                        <img src="assets/playstore.png" alt="Get it on Google Play">
-                    </a>
-                    <a href="https://apps.apple.com/us/app/time-with-me/id6705135769" target="_blank" rel="noopener">
-                        <img src="assets/appstore.png" alt="Download on the App Store">
-                    </a>
-                </div>
-            </div>
-            <div class="hero-phone">
-                <div class="phone-mockup">
-                    <div class="phone-screen">
-                        <img src="assets/screenshot/screenshot.jpg" alt="Time with Me App Screenshot">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features" id="features">
-        <div class="features-container">
-            <h2 class="section-title" data-i18n="features.sectionTitle">Features</h2>
-            <p class="section-subtitle" data-i18n="features.sectionSubtitle">Everything you need to share time with others</p>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-magic"></i>
-                    </div>
-                    <div class="feature-text">
-                        <h3 data-i18n="features.calendar.title">Share your calendar with others</h3>
-                        <p data-i18n="features.calendar.desc">Create a calendar full of gorgeous images with people around you!</p>
-                    </div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <div class="feature-text">
-                        <h3 data-i18n="features.crossplatform.title">On Android and iPhone</h3>
-                        <p data-i18n="features.crossplatform.desc">It is available for both Android and iPhone devices.</p>
-                    </div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-comment"></i>
-                    </div>
-                    <div class="feature-text">
-                        <h3 data-i18n="features.communicate.title">Communicate together</h3>
-                        <p data-i18n="features.communicate.desc">Let's communicate with each other by leaving hearts and comments on the schedule!</p>
-                    </div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <div class="feature-text">
-                        <h3 data-i18n="features.location.title">Record the location</h3>
-                        <p data-i18n="features.location.desc">Record and share locations with images!</p>
-                    </div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-calendar-check"></i>
-                    </div>
-                    <div class="feature-text">
-                        <h3 data-i18n="features.dday.title">Various D-day notations</h3>
-                        <p data-i18n="features.dday.desc">Through various D-Day recording methods, you can count the days that fit your schedule!</p>
-                    </div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-tag"></i>
-                    </div>
-                    <div class="feature-text">
-                        <h3 data-i18n="features.category.title">Various categorization</h3>
-                        <p data-i18n="features.category.desc">You can create various categories to record your schedules!</p>
-                    </div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-clipboard-list"></i>
-                    </div>
-                    <div class="feature-text">
-                        <h3 data-i18n="features.sorting.title">Different sorting methods</h3>
-                        <p data-i18n="features.sorting.desc">You can find the item you want through various sorting methods!</p>
-                    </div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-bell"></i>
-                    </div>
-                    <div class="feature-text">
-                        <h3 data-i18n="features.notification.title">New post notification</h3>
-                        <p data-i18n="features.notification.desc">We'll send you a notification when a new post is created on your calendar!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Download CTA -->
-    <section class="download" id="download">
-        <div class="download-container">
-            <h2 data-i18n="download.title">Download Now</h2>
-            <p data-i18n="download.subtitle">Available on iOS and Android</p>
-            <div class="download-buttons">
-                <a href="https://play.google.com/store/apps/details?id=com.joonhwan.timewithme.time_with_me&hl=en" target="_blank" rel="noopener">
-                    <img src="assets/playstore.png" alt="Get it on Google Play">
-                </a>
-                <a href="https://apps.apple.com/us/app/time-with-me/id6705135769" target="_blank" rel="noopener">
-                    <img src="assets/appstore.png" alt="Download on the App Store">
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-container">
-            <nav class="footer-nav">
-                <a href="privacy.html" data-i18n="nav.privacy">Privacy Policy</a>
-                <a href="terms.html" data-i18n="nav.terms">Terms & Conditions</a>
-            </nav>
-            <div class="footer-social">
-                <a href="https://github.com/teiresias22" target="_blank" rel="noopener" aria-label="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://instagram.com/j.oooon" target="_blank" rel="noopener" aria-label="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="mailto:teiresias1997@gmail.com" aria-label="Email">
-                    <i class="fas fa-envelope"></i>
-                </a>
-            </div>
-            <div class="footer-info">
-                <p>&copy; 2024 Time with Me. <span data-i18n="footer.rights">All rights reserved.</span></p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="js/theme.js"></script>
-    <script src="js/i18n.js"></script>
-    <script src="js/app.js"></script>
-</body>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
