@@ -7,7 +7,8 @@
   "nav": {
     "home": "Inicio",
     "privacy": "Política de Privacidad",
-    "terms": "Términos de Servicio"
+    "terms": "Términos de Servicio",
+    "otherApps": "Más Apps"
   },
   "hero": {
     "download": "Descargar Ahora",
@@ -62,5 +63,11 @@
     "title": "Términos de Servicio",
     "lastUpdated": "Última actualización: 01 de octubre de 2024",
     "content": "## Artículo 1 (Propósito)\n\nEl propósito de estos Términos es definir los derechos, obligaciones y responsabilidades en relación con el uso de los servicios proporcionados por Time with Me.\n\n## Artículo 2 (Definiciones)\n\n1. 'Servicio' se refiere a todos los servicios proporcionados a través de la aplicación móvil Time with Me.\n2. 'Usuario' se refiere a cualquier persona que acepte estos términos y utilice el Servicio.\n\n## Artículo 3 (Efecto y Modificación)\n\n1. Estos términos se aplican a todos los usuarios del Servicio.\n2. El Servicio puede modificar estos términos según sea necesario y notificará a los usuarios dentro de la app.\n\n## Artículo 4 (Provisión del Servicio)\n\n1. El Servicio proporciona las siguientes funciones:\n   - Calendario compartido con imágenes\n   - Corazones y comentarios en horarios\n   - Grabación y compartición de ubicación\n   - Seguimiento D-day\n   - Gestión de categorías\n   - Notificaciones push\n\n## Artículo 5 (Obligaciones del Usuario)\n\n1. Los usuarios deben cumplir con las leyes aplicables y estos términos.\n2. Los usuarios no deben infringir la información personal de otros.\n\n## Artículo 6 (Exención de Responsabilidad)\n\n1. El Servicio no es responsable por la imposibilidad de proporcionar servicio debido a fuerza mayor.\n2. El Servicio no es responsable por interrupciones causadas por negligencia del usuario.\n\n## Artículo 7 (Ley Aplicable)\n\nEstos términos se rigen por las leyes de la República de Corea."
+  },
+  "otherApps": {
+    "title": "Más Apps del Desarrollador",
+    "subtitle": "Otras apps creadas por el mismo desarrollador.",
+    "visitWebsite": "Visitar Sitio Web",
+    "currentApp": "App Actual"
   }
 }

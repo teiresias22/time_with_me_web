@@ -19,6 +19,9 @@ export default function Footer() {
           <Link to="/terms" className="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors no-underline">
             {t('nav.terms')}
           </Link>
+          <Link to="/other-apps" className="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors no-underline">
+            {t('nav.otherApps')}
+          </Link>
         </nav>
 
 

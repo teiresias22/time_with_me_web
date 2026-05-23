@@ -7,7 +7,8 @@
   "nav": {
     "home": "Home",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "terms": "Terms of Service",
+    "otherApps": "More Apps"
   },
   "hero": {
     "download": "Download Now",
@@ -62,5 +63,11 @@
     "title": "Terms of Service",
     "lastUpdated": "Last updated: October 01, 2024",
     "content": "## Article 1 (Purpose)\n\nThe purpose of these Terms and Conditions is to define the rights, obligations, and responsibilities of the cyber mall and the users in relation to the use of services provided by Time with Me.\n\n## Article 2 (Definitions)\n\n1. 'Service' refers to all services provided through the Time with Me mobile application.\n2. 'User' refers to anyone who agrees to these terms and uses the Service.\n3. 'Member' refers to a person who has registered as a member and can continuously use the services.\n\n## Article 3 (Effect and Amendment)\n\n1. These terms apply to all users of the Service.\n2. The Service may amend these terms as necessary and will notify users within the app.\n3. The amended Terms and Conditions apply only to contracts concluded after the application date.\n\n## Article 4 (Service Provision)\n\n1. The Service provides the following features:\n   - Shared calendar with images\n   - Hearts and comments on schedules\n   - Location recording and sharing\n   - D-day tracking\n   - Category management\n   - Push notifications\n\n## Article 5 (User Obligations)\n\n1. Users must comply with applicable laws and these terms.\n2. Users must not infringe on others' personal information.\n3. Users shall not register false information or steal others' information.\n\n## Article 6 (Disclaimer)\n\n1. The Service is not liable for inability to provide service due to force majeure.\n2. The Service is not liable for service disruptions caused by user negligence.\n\n## Article 7 (Governing Law)\n\nThese terms are governed by the laws of the Republic of Korea."
+  },
+  "otherApps": {
+    "title": "More Apps by the Developer",
+    "subtitle": "Other apps made by the same developer.",
+    "visitWebsite": "Visit Website",
+    "currentApp": "This App"
   }
 }
