@@ -69,5 +69,15 @@
     "subtitle": "Other apps made by the same developer.",
     "visitWebsite": "Visit Website",
     "currentApp": "This App"
+  },
+  "invite": {
+    "title": "You've been invited!",
+    "message": "Open Time with Me to join the shared calendar.",
+    "openApp": "Open in App",
+    "opening": "Opening app...",
+    "downloadPrompt": "Don't have the app yet? Download it to accept the invitation.",
+    "iosFallback": "If the app didn't open, please install it from the App Store and tap the invite link again.",
+    "invalidTitle": "Invalid invitation link",
+    "invalidMessage": "This invitation link is missing or has expired. Please ask the inviter to send a new link."
   }
 }

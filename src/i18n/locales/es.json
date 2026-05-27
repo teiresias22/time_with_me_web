@@ -69,5 +69,15 @@
     "subtitle": "Otras apps creadas por el mismo desarrollador.",
     "visitWebsite": "Visitar Sitio Web",
     "currentApp": "App Actual"
+  },
+  "invite": {
+    "title": "¡Has sido invitado!",
+    "message": "Abre Time with Me para unirte al calendario compartido.",
+    "openApp": "Abrir en la app",
+    "opening": "Abriendo la app...",
+    "downloadPrompt": "¿Aún no tienes la app? Descárgala para aceptar la invitación.",
+    "iosFallback": "Si la app no se abrió, instálala desde la App Store y vuelve a tocar el enlace.",
+    "invalidTitle": "Enlace de invitación no válido",
+    "invalidMessage": "Falta información de invitación o ha caducado. Pide al invitante que envíe un nuevo enlace."
   }
 }

@@ -69,5 +69,15 @@
     "subtitle": "同一开发者开发的其他应用程序。",
     "visitWebsite": "访问网站",
     "currentApp": "当前应用"
+  },
+  "invite": {
+    "title": "您收到了一份邀请！",
+    "message": "打开 Time with Me 加入共享日历。",
+    "openApp": "在应用中打开",
+    "opening": "正在打开应用...",
+    "downloadPrompt": "尚未安装应用？请下载后接受邀请。",
+    "iosFallback": "如果应用未打开，请前往 App Store 安装后再次点击邀请链接。",
+    "invalidTitle": "无效的邀请链接",
+    "invalidMessage": "邀请信息缺失或已过期。请向邀请人索取新的链接。"
   }
 }

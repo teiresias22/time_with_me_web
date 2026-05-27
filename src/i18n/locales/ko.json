@@ -69,5 +69,15 @@
     "subtitle": "같은 개발자가 만든 앱들을 소개합니다.",
     "visitWebsite": "웹사이트 방문",
     "currentApp": "현재 앱"
+  },
+  "invite": {
+    "title": "초대받으셨어요!",
+    "message": "Time with Me 앱을 열어 공유 캘린더에 참여해 보세요.",
+    "openApp": "앱에서 열기",
+    "opening": "앱을 여는 중...",
+    "downloadPrompt": "앱이 설치되어 있지 않다면, 앱을 받은 뒤 초대를 수락해 주세요.",
+    "iosFallback": "앱이 열리지 않았다면, App Store에서 설치 후 초대 링크를 다시 눌러주세요.",
+    "invalidTitle": "유효하지 않은 초대 링크",
+    "invalidMessage": "초대 정보가 없거나 만료되었습니다. 초대한 분께 새 링크를 요청해 주세요."
   }
 }
