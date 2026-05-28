@@ -5,7 +5,8 @@
       "namespace": "android_app",
       "package_name": "com.joonhwan.timewithme.time_with_me",
       "sha256_cert_fingerprints": [
-        "BF:6B:44:CA:18:55:45:3B:CC:FF:7C:77:60:3A:81:3F:C4:C0:F3:5E:44:1A:F8:9E:F3:FE:A0:8A:AF:D8:0A:35"
+        "BF:6B:44:CA:18:55:45:3B:CC:FF:7C:77:60:3A:81:3F:C4:C0:F3:5E:44:1A:F8:9E:F3:FE:A0:8A:AF:D8:0A:35",
+        "AA:B2:02:CD:2C:26:C8:C0:9B:C2:6A:DF:24:D1:19:03:56:43:6A:4A:41:5E:75:C9:1E:FA:2B:5A:B1:15:48:BF"
       ]
     }
   }
